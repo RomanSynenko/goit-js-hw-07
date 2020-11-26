@@ -1,0 +1,122 @@
+        body {
+            text-align: center;
+            background: rgba(72, 112, 183, 0.8);
+            padding: 40px 15px 40px 15px;
+            color: white;
+        }
+        
+        ul,
+        li {
+            padding: 0px;
+            margin: 0px;
+            list-style: none;
+        }
+        
+        .gallery-link {
+            width: 250px;
+            height: 250px;
+            text-decoration: none;
+            list-style: none;
+            margin-bottom: 20px;
+        }
+        
+        .gallery-link img {
+            border-radius: 15%;
+            border: 1px solid #ffffff;
+        }
+        
+        #gallery {
+            margin: 0 auto;
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        
+        #counter {
+            display: flex;
+            justify-content: center;
+            padding: 20px 20px 20px 20px;
+        }
+        
+        #counter button {
+            width: 100px;
+            height: 50px;
+            background: #848585;
+            color: #ffffff;
+            font-size: 20px;
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+            border-radius: 20px;
+            outline: none;
+        }
+        
+        #value {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50px;
+            width: 50px;
+            color: #ffffff;
+            background: #848585;
+            margin: 0 10px 0 10px;
+            font-size: 20px;
+            font-weight: 600;
+            border-radius: 20px;
+        }
+        
+        h1 {
+            font-size: 20px;
+            font-weight: 600;
+            border-radius: 20px;
+            color: #ffffff;
+        }
+        
+        #ingredients {
+            margin: 20px 0 20px 0;
+        }
+        
+        #name-input,
+        #validation-input,
+        #controls input,
+        #controls button {
+            width: 200px;
+            height: 50px;
+            border: none;
+            border-radius: 20px;
+            padding-left: 10px;
+            outline: none;
+            background: #ffffff;
+        }
+        
+        #name-input,
+        #validation-input,
+        #font-size-control {
+            margin-bottom: 20px;
+        }
+        
+        #validation-input {
+            border: 6px solid #bdbdbd;
+        }
+        
+        #validation-input.valid {
+            border-color: #4caf50;
+        }
+        
+        #validation-input.invalid {
+            border-color: #f44336;
+        }
+        
+        #controls {
+            margin-top: 20px;
+        }
+        
+        #boxes {
+            margin: 0 auto;
+            width: 70%;
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
